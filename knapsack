@@ -37,7 +37,7 @@ int main()
     cout << "enter the size of the knapsack" << endl;
     cin >> k_sack;
     i = 0;
-    double profit = 0.00;
+    double profit = 0.0;
     while (k_sack)
     {
         if (k_sack > ks[pw[i].second].second)
