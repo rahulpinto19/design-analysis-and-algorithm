@@ -45,7 +45,7 @@ void mergesort(int *arr,int start,int end)
 
     int mid= start+ (end-start)/2;
 
-    mergesort(arr,0,mid);
+    mergesort(arr,start,mid);
 
     mergesort(arr,mid+1,end);
 
